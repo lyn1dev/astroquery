@@ -38,6 +38,11 @@ eso
 API changes
 -----------
 
+astroquery.exceptions
+^^^^^^^^^^^^^^^^^^^^^
+
+- Subclass built-in ``TimeoutError`` in ``astroquery.exceptions.TimeoutError``. [#3714]
+
 oac
 ^^^
 
